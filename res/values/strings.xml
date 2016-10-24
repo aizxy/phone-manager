@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyTestViewPager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_join">JoinActivity</string>
+    <string name="title_activity_ok">OKActivity</string>
+    <string name="title_activity_bar">BarActivity</string>
+    <string name="title_activity_animation">AnimationActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_speed_up">SpeedUpActivity</string>
+    <string name="title_activity_tel_mgr">TelMgrActivity</string>
+    <string name="title_activity_telmgr_show">TelmgrShowActivity</string>
+    <string name="title_activity_file_mgr">FileMgrActivity</string>
+    <string name="title_activity_phone_mgr">PhoneMgrActivity</string>
+    <string name="title_activity_clear">ClearActivity</string>
+    <string name="title_activity_soft_mgr">SoftMgrActivity</string>
+    <string name="title_activity_soft_show">SoftShowActivity</string>
+    <string name="title_activity_file_mgr_show">FileMgrShowActivity</string>
+
+</resources>

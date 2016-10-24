@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.mytestviewpager.view.ActionBar
+        android:id="@+id/actionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.example.mytestviewpager.view.ActionBar>
+    
+    <ListView 
+        android:id="@+id/lv_telshow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@color/transparent"
+        android:cacheColorHint="@color/transparent">
+        
+    </ListView>
+
+</LinearLayout>

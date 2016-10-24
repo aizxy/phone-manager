@@ -1,0 +1,131 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    --><style name="AppBaseTheme">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+    <style name="setting_item_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/setting_item_entry</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:onClick">hitSettingItem</item>
+    </style>
+    
+    <style name="setting_textView_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    
+    <style name="setting_item_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="setting_item_toggleButton" parent="setting_item_button">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/setting_toggle_entry</item>
+        <item name="android:textOn"></item>
+        <item name="android:textOff"></item>
+    </style>
+    
+    <style name="home_score_list_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:onClick">hitHomeitem</item>
+        <item name="android:clickable">true</item>
+    </style>
+    
+    <style name="file_type_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+       
+    </style>
+    <style name="file_type_text1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="file_type_text2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+   <style name="file_type_progressBar">
+       <item name="android:layout_alignParentRight">true</item>
+       <item name="android:layout_width">20dp</item>
+       <item name="android:layout_height">20dp</item>
+       <item name="android:layout_marginRight">10dp</item>
+       <item name="android:indeterminateDrawable">@drawable/progress_roate</item>
+   </style>
+   
+   <style name="file_image">
+       <item name="android:layout_alignParentRight">true</item>
+       <item name="android:layout_width">20dp</item>
+       <item name="android:layout_height">20dp</item>
+       <item name="android:layout_marginRight">10dp</item>
+       <item name="android:background">@drawable/ic_arrows_right</item>
+   </style>
+    <style name="file_type_toggleButton">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">30dp</item>
+         <item name="android:layout_alignParentRight">true</item>
+          <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@drawable/ic_arrows_right</item>
+        <item name="android:textOn"></item>
+        <item name="android:textOff"></item>
+    </style>
+    
+    <style name="app_listitem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:onClick">hitListItem</item>
+    </style>
+    
+    <style name="app_listitem_text">
+         <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    
+    <style name="app_listitem_righticon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/ic_arrows_right</item>
+    </style>
+    
+</resources>

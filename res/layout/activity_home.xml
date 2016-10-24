@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+     <com.example.mytestviewpager.view.ActionBar
+        android:id="@+id/actionBar"
+        android:layout_marginTop="20dp"
+        android:background="#990000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.example.mytestviewpager.view.ActionBar>
+    
+     
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:gravity="center"
+         android:layout_weight="2">
+         <include layout="@layout/layout_home_score"/>
+     </LinearLayout>
+     
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_weight="1"
+         android:layout_gravity="bottom"
+         android:layout_height="wrap_content">
+         <include layout="@layout/home_buju"/>"
+     </LinearLayout>
+     
+</LinearLayout>

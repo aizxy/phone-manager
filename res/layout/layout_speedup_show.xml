@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_phoneName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="手机型号" />
+
+        <TextView
+            android:id="@+id/tv_phoneModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Galaxy Note 3 LTE-A" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            android:id="@+id/pb_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="70"
+            android:progressDrawable="@drawable/progress_bar_men" />
+
+        <TextView
+            android:id="@+id/tv_phoneRam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="可用内存1.21M/5.0M"
+            android:gravity="right"
+            android:textColor="#ff33ccff"
+            android:textSize="10sp" />
+    </LinearLayout>
+    
+    <Button 
+        android:id="@+id/button_onekeyspeed"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_float"
+        android:textColor="#ffffff"
+        android:text="一键加速"/>
+
+</LinearLayout>

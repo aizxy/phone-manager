@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_file_all"
+        style="@style/file_type_item" >
+
+        <TextView
+            android:id="@+id/tv_all_text"
+            style="@style/file_type_text1"
+            android:text="全部" />
+
+        <TextView
+            android:id="@+id/tv_all_size"
+            style="@style/file_type_text2"
+            android:layout_toRightOf="@+id/tv_all_text"
+            android:text="0 B" />
+
+        <ProgressBar
+            android:id="@+id/pb_file_all"
+            style="@style/file_type_progressBar" />
+
+        <ImageView
+            android:id="@+id/iv_file_all"
+            style="@style/file_image"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_file_doc"
+        style="@style/file_type_item" >
+
+        <TextView
+            android:id="@+id/tv_all_doc"
+            style="@style/file_type_text1"
+            android:text="文档" />
+
+        <TextView
+            android:id="@+id/tv_doc_size"
+            style="@style/file_type_text2"
+            android:layout_toRightOf="@+id/tv_all_doc"
+            android:text="0 B" />
+
+        <ProgressBar
+            android:id="@+id/pb_file_doc"
+            style="@style/file_type_progressBar" />
+
+        <ImageView
+            android:id="@+id/iv_file_doc"
+            style="@style/file_image"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_file_video"
+        style="@style/file_type_item" >
+
+        <TextView
+            android:id="@+id/tv_all_video"
+            style="@style/file_type_text1"
+            android:text="视频" />
+
+        <TextView
+            android:id="@+id/tv_video_size"
+            style="@style/file_type_text2"
+            android:layout_toRightOf="@+id/tv_all_video"
+            android:text="0 B" />
+
+        <ProgressBar
+            android:id="@+id/pb_file_video"
+            style="@style/file_type_progressBar" />
+
+        <ImageView
+            android:id="@+id/iv_file_video"
+            style="@style/file_image"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_file_music"
+        style="@style/file_type_item" >
+
+        <TextView
+            android:id="@+id/tv_music_text"
+            style="@style/file_type_text1"
+            android:text="音频" />
+
+        <TextView
+            android:id="@+id/tv_music_size"
+            style="@style/file_type_text2"
+            android:layout_toRightOf="@+id/tv_music_text"
+            android:text="0 B" />
+
+        <ProgressBar
+            android:id="@+id/pb_file_music"
+            style="@style/file_type_progressBar" />
+
+        <ImageView
+            android:id="@+id/iv_file_music"
+            style="@style/file_image"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_file_photo"
+        style="@style/file_type_item" >
+
+        <TextView
+            android:id="@+id/tv_all_photo"
+            style="@style/file_type_text1"
+            android:text="图像" />
+
+        <TextView
+            android:id="@+id/tv_photo_size"
+            style="@style/file_type_text2"
+            android:layout_toRightOf="@+id/tv_all_photo"
+            android:text="0 B" />
+
+        <ProgressBar
+            android:id="@+id/pb_file_photo"
+            style="@style/file_type_progressBar" />
+
+        <ImageView
+            android:id="@+id/iv_file_photo"
+            style="@style/file_image"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_file_compress"
+        style="@style/file_type_item" >
+
+        <TextView
+            android:id="@+id/tv_all_compress"
+            style="@style/file_type_text1"
+            android:text="压缩包" />
+
+        <TextView
+            android:id="@+id/tv_compress_size"
+            style="@style/file_type_text2"
+            android:layout_toRightOf="@+id/tv_all_compress"
+            android:text="0 B" />
+
+        <ProgressBar
+            android:id="@+id/pb_file_compress"
+            style="@style/file_type_progressBar" />
+
+        <ImageView
+            android:id="@+id/iv_file_compress"
+            style="@style/file_image"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_file_apps"
+        style="@style/file_type_item" >
+
+        <TextView
+            android:id="@+id/tv_all_apps"
+            style="@style/file_type_text1"
+            android:text="程序包" />
+
+        <TextView
+            android:id="@+id/tv_apps_size"
+            style="@style/file_type_text2"
+            android:layout_toRightOf="@+id/tv_all_apps"
+            android:text="0 B" />
+
+        <ProgressBar
+            android:id="@+id/pb_file_apps"
+            style="@style/file_type_progressBar" />
+
+        <ImageView
+            android:id="@+id/iv_file_apps"
+            style="@style/file_image"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

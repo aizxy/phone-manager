@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="0"
+    android:orientation="vertical" >
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    
+	    <TextView
+	        android:id="@+id/tv_rocket"
+	        style="@style/home_score_list_item"
+	        android:drawableTop="@drawable/icon_rocket"
+	        android:text="手机加速" />
+
+	     <TextView 
+	        android:id="@+id/tv_softmgr"
+	        android:drawableTop="@drawable/icon_softmgr"
+	        style="@style/home_score_list_item"
+	        android:text="软件管理"/>
+	      <TextView 
+	        android:id="@+id/tv_phonemgr"
+	        android:drawableTop="@drawable/icon_phonemgr"
+	        style="@style/home_score_list_item"
+	        android:text="手机检测"/>
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    
+	    <TextView 
+	        android:id="@+id/tv_telmgr"
+	        android:drawableTop="@drawable/icon_telmgr"
+	        style="@style/home_score_list_item"
+	        android:text="通讯大全"/>
+	     <TextView 
+	        android:id="@+id/tv_filemgr"
+	        android:drawableTop="@drawable/icon_filemgr"
+	        style="@style/home_score_list_item"
+	        android:text="文件管理"/>
+	      <TextView 
+	        android:id="@+id/tv_sdclean"
+	        android:drawableTop="@drawable/icon_sdclean"
+	        style="@style/home_score_list_item"
+	        android:text="垃圾清理"/>
+	</LinearLayout>
+</LinearLayout>

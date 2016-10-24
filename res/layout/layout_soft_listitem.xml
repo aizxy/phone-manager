@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:id="@+id/file_classlist_all"
+        style="@style/app_listitem">
+        
+        <TextView 
+            style="@style/app_listitem_text"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="所有软件"/>
+        <ImageView
+            android:id="@+id/file_all_rightIcon"
+            style="@style/app_listitem_righticon"/>
+    </RelativeLayout>
+     <RelativeLayout 
+        android:id="@+id/file_classlist_system"
+        style="@style/app_listitem">
+        
+        <TextView 
+            style="@style/app_listitem_text"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="系统软件"/>
+        <ImageView
+            android:id="@+id/file_system_rightIcon"
+            style="@style/app_listitem_righticon"/>
+    </RelativeLayout>
+     <RelativeLayout 
+        android:id="@+id/file_classlist_phone"
+        style="@style/app_listitem">
+        
+        <TextView 
+            style="@style/app_listitem_text"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="手机软件"/>
+        <ImageView
+            android:id="@+id/file_phone_rightIcon"
+            style="@style/app_listitem_righticon"/>
+    </RelativeLayout>
+
+</LinearLayout>

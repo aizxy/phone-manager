@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mytestviewpager"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/nav_i"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.JoinActivity"
+            android:label="@string/title_activity_join" >
+        </activity>
+        <activity
+            android:name=".activity.OKActivity"
+            android:label="@string/title_activity_ok" >
+        </activity>
+        <activity
+            android:name=".activity.BarActivity"
+            android:label="@string/title_activity_bar" >
+            <intent-filter>
+                <action android:name="com.example.mytestviewpager" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.AnimationActivity"
+            android:label="@string/title_activity_animation" >
+        </activity>
+        <activity
+            android:name=".activity.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name=".activity.SettingActivity"
+            android:label="@string/title_activity_setting"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name=".activity.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name=".activity.SpeedUpActivity"
+            android:label="@string/title_activity_speed_up" >
+        </activity>
+        <activity
+            android:name=".activity.TelMgrActivity"
+            android:label="@string/title_activity_tel_mgr" >
+        </activity>
+        <activity
+            android:name=".activity.TelmgrShowActivity"
+            android:label="@string/title_activity_telmgr_show" >
+        </activity>
+        <activity
+            android:name=".activity.FileMgrActivity"
+            android:label="@string/title_activity_file_mgr" >
+        </activity>
+        <activity
+            android:name=".activity.PhoneMgrActivity"
+            android:label="@string/title_activity_phone_mgr" >
+        </activity>
+        <activity
+            android:name=".activity.ClearActivity"
+            android:label="@string/title_activity_clear" >
+        </activity>
+        <activity
+            android:name=".activity.SoftMgrActivity"
+            android:label="@string/title_activity_soft_mgr" >
+        </activity>
+        <activity
+            android:name=".activity.SoftShowActivity"
+            android:label="@string/title_activity_soft_show" >
+        </activity>
+        <activity
+            android:name="com.example.mytestviewpager.activity.FileMgrShowActivity"
+            android:label="@string/title_activity_file_mgr_show" >
+        </activity>
+    </application>
+
+</manifest>

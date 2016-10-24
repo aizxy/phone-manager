@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/background">
+        <shape >
+            <corners android:radius="10dp"/>
+            <solid android:color="@color/battery_progressBar_bg"/>
+        </shape>
+    </item>
+	
+    <item android:id="@+id/background">
+        <clip >
+	        <shape >
+	            <corners android:radius="10dp"/>
+	            <solid android:color="@color/battery_speed"/>
+	        </shape>
+        </clip>
+    </item>
+    
+</layer-list>

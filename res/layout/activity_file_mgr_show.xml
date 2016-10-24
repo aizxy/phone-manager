@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.mytestviewpager.view.ActionBar
+        android:id="@+id/actionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="文件数量:" />
+
+        <TextView
+            android:id="@+id/tv_fileshow_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0000"
+            android:textColor="@color/file_number_color"
+            android:textSize="22sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="占用空间:" />
+
+        <TextView
+            android:id="@+id/tv_fileshow_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00000"
+            android:textColor="@color/file_number_color"
+            android:textSize="22sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+    
+    <ListView 
+        android:id="@+id/lv_fileshow_list"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/setting_item_entry"
+        android:layout_height="wrap_content"/>
+    
+    <Button 
+        android:id="@+id/btn_fileshow_clear"
+        android:layout_weight="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清除所选文件"
+        android:background="@drawable/btn_float"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

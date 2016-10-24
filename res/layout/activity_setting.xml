@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  	android:layout_weight="1"  >
+
+    <com.example.mytestviewpager.view.ActionBar
+        android:id="@+id/actionBar_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#40C0FF" >
+    </com.example.mytestviewpager.view.ActionBar>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+        <include layout="@layout/setting_buju" />
+    </ScrollView>
+
+</LinearLayout>
